@@ -11,8 +11,8 @@ public:
                 int maxi = 0;
                 for(int f:freq){
                     if(f>0){
-                        mini = min(mini,(int)f);
-                        maxi = max(maxi,(int)f);
+                        mini = min(mini,f);
+                        maxi = max(maxi,f);
                     }
                 }
                 ans+=(maxi-mini);
